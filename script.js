@@ -51,7 +51,7 @@ function searchMeal(e) { //it is submit, needs to pass evenet param and prevent 
     }
   }else {
     
-    alert('Please enter a search term');
+    resultsHeading.innerHTML = `<p>There are no search results for '${term}'. Please try again. </p>`
   }
 
 }
